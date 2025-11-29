@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Unofficial Homebrew tap for ComposePack. The formula is auto-generated and updated by the composepack/composepack release workflow.
+Homebrew tap for ComposePack. The formula is auto-generated and updated by the composepack/composepack release workflow.
 
 ## Install
 
