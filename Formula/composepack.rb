@@ -6,10 +6,10 @@ class Composepack < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/composepack/composepack/releases/download/v0.0.5/composepack_v0.0.5_darwin_arm64.tar.gz"
-      sha256 "10028f33f0b89f21a23aeb62b26f3f5bb1e350206f6bda3093ad16b053f586b9"
+      sha256 "3507c607d49ac55ea35f240b1b528a4eac5899f037a1e647b05193bff0bba3e9"
     else
       url "https://github.com/composepack/composepack/releases/download/v0.0.5/composepack_v0.0.5_darwin_amd64.tar.gz"
-      sha256 "7e340ac7e9051fe38b10fa2b030adb95fc1052db92de84bd84118de547d2ea35"
+      sha256 "d03e769745c04735543bb8f880400e3c395ba20f89fef541640694acbab915ff"
     end
   end
 
@@ -17,10 +17,10 @@ class Composepack < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/composepack/composepack/releases/download/v0.0.5/composepack_v0.0.5_linux_arm64.tar.gz"
-      sha256 "25b2523259b036cfc7a0ffbd7407a9b23e4eb2040834d4e27c800a40e83a8b9e"
+      sha256 "3190f847f9e99b2045cd4858fad6031db7395e1dd984f24f34cdf038b40625e4"
     else
       url "https://github.com/composepack/composepack/releases/download/v0.0.5/composepack_v0.0.5_linux_amd64.tar.gz"
-      sha256 "39f52d100e7d029ae17bb9efa174672d341d1be2c37a8d3e6f1336d95fd3de35"
+      sha256 "fa899dfa25cd22ddc79050a78f09b0042db6d08c4d5f5e3c3f9880f0091392e1"
     end
   end
 
